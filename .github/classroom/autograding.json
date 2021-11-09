@@ -1,44 +1,44 @@
 {
   "tests": [
     {
-      "name": "Fix Code 2",
+      "name": "Test 1",
       "setup": "",
-      "run": "python3 src/fix_code_2.py",
-      "input": "blue\r\nberry",
-      "output": "The string blue\rberry has 10 letters.",
+      "run": "python3 src/my_code.py",
+      "input": "True\r\nTrue",
+      "output": "Yes",
       "comparison": "included",
       "timeout": 10,
-      "points": 5
+      "points": 1
     },
     {
-      "name": "Write code 2",
+      "name": "Test 2",
       "setup": "",
-      "run": "python3 src/write_code_2.py",
-      "input": "green\r\nyellow\r\npurple",
-      "output": "green\r yellow\r purple",
+      "run": "python3 src/my_code.py",
+      "input": "True\r\nFalse",
+      "output": "Yes",
       "comparison": "included",
       "timeout": 10,
-      "points": null
+      "points": 1
     },
     {
-      "name": "Fix code 3",
+      "name": "Test 3",
       "setup": "",
-      "run": "python3 src/fix_code_3.py",
-      "input": "",
-      "output": "Wilderness\r\nLength: 10",
+      "run": "python3 src/my_code.py",
+      "input": "False\r\nTrue",
+      "output": "Yes",
       "comparison": "included",
       "timeout": 10,
-      "points": null
+      "points": 1
     },
     {
-      "name": "Write code 3",
+      "name": "Test 4",
       "setup": "",
-      "run": "python3 src/write_code_3.py",
-      "input": "",
-      "output": "agilistic",
+      "run": "python3 src/my_code.py",
+      "input": "False\r\nFalse",
+      "output": "No",
       "comparison": "included",
       "timeout": 10,
-      "points": null
+      "points": 1
     }
   ]
 }

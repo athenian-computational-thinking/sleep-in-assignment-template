@@ -4,12 +4,8 @@ name: Build and Test
 on:
   push:
     paths:
-      - 'src/fix_code_1.py'
-      - 'src/fix_code_2.py'
-      - 'src/fix_code_3.py'
-      - 'src/write_code_1.py'
-      - 'src/write_code_2.py'
-      - 'src/write_code_3.py'
+      - 'src/my_code.py'
+
 jobs:
 
   Style_test:
@@ -28,12 +24,7 @@ jobs:
       id: style
       continue-on-error: true
       run: |
-        flake8 src/fix_code_1.py >> .github/ISSUE_TEMPLATE/style-issues.md
-        flake8 src/fix_code_2.py >> .github/ISSUE_TEMPLATE/style-issues.md
-        flake8 src/fix_code_3.py >> .github/ISSUE_TEMPLATE/style-issues.md
-        flake8 src/write_code_1.py >> .github/ISSUE_TEMPLATE/style-issues.md
-        flake8 src/write_code_2.py >> .github/ISSUE_TEMPLATE/style-issues.md
-        flake8 src/write_code_3.py >> .github/ISSUE_TEMPLATE/style-issues.md
+        flake8 src/my_code.py >> .github/ISSUE_TEMPLATE/style-issues.md
 
     - name: Style fail message
       if: steps.style.outcome == 'failure'
