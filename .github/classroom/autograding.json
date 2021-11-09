@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Fix Code 2",
+      "setup": "",
+      "run": "python3 src/fix_code_2.py",
+      "input": "blue\r\nberry",
+      "output": "The string blue\rberry has 10 letters.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Write code 2",
+      "setup": "",
+      "run": "python3 src/write_code_2.py",
+      "input": "green\r\nyellow\r\npurple",
+      "output": "green\r yellow\r purple",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Fix code 3",
+      "setup": "",
+      "run": "python3 src/fix_code_3.py",
+      "input": "",
+      "output": "Wilderness\r\nLength: 10",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Write code 3",
+      "setup": "",
+      "run": "python3 src/write_code_3.py",
+      "input": "",
+      "output": "agilistic",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
