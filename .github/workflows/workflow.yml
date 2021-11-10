@@ -1,12 +1,35 @@
 name: Build and Test
-# only style tests
-
+# pytest & style
 on:
   push:
     paths:
       - 'src/my_code.py'
 
 jobs:
+  test_with_pytest:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - name: Install dependencies
+      run: |
+        python3 -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: Test student program
+      id: test
+      run: |
+        python3 -m pytest tests/my_test.py >> .github/ISSUE_TEMPLATE/test-failure.md
+
+    - name: Failure message
+      if: failure()
+      uses: machine-learning-apps/pr-comment@1.0.0
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        path: .github/ISSUE_TEMPLATE/test-failure.md
 
   Style_test:
     runs-on: ubuntu-latest

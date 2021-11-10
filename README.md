@@ -1,7 +1,7 @@
 # Sleep-in Assignment  
 
 ## Problem Description
-The parameter weekday is True if it is a weekday, and the parameter vacation is True if we are on vacation. 
+The variable`weekend` is `No` if it is a weekday, and the variable `vacation` is `Yes` if we are on vacation. 
 You get to sleep in if it is not a weekday or if you're on vacation. Print `Yes` if you sleep in and `No` if you don't.
 
 ## Example
