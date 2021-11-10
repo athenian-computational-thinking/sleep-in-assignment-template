@@ -6,8 +6,8 @@ You get to sleep in if it is not a weekday or if you're on vacation. Print `Yes`
 
 ## Example
 ```
-Weekend? True
-Vacation? True
+Weekend? Yes
+Vacation? Yes
 Sleep In: Yes
 ```
 
