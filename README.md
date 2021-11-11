@@ -16,8 +16,13 @@ Check the values of weekday and vacation and return the appropriate response. Ma
 * Watch the formatting - capitalization, etc.
 * If you're worried about the user typing the response with a capital letter, remind them in the prompt. You can also use the `.title()` method to correct it. Ask if you want to try it!
 
-### Submitting your Repo
-* When you have completed each task, commit and push to GitHub.
+### Testing your program (in PyCharm)
+* When you have completed the task, test it using the [test file](tests/my_test.py). Click the green run button in the left margin to run the tests.
+* If the tests fail, try to fix them (and ask for help if you need it). 
+* When they pass, check for style issues in your program. (Look for the feedback icons in the upper right corner.)
+
+### Submitting your program
+* When you have passed the tests, commit and push to GitHub.
 * Go to the repo on GitHub and click on the Pull Requests tab. Look for feedback about code function and style. If any issues are found, fix them and check your changes in to GitHub. repeat until no errors are found.
 * When done, submit "Done" on Canvas.
 
