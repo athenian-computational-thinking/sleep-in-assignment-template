@@ -20,7 +20,7 @@
 - Watch exactly what is happening in memory at each step. This will allow you quickly identify and fix logic errors.
 ### :writing_hand: Re-write your algorithm from scratch
 - Don't start with the code, start with your algorithm.
-- Codecademy Video: [What is psuedocode and how do you use it?](https://youtu.be/PwGA4Lm8zuE)
+- Codecademy Video: [What is pseudocode and how do you use it?](https://youtu.be/PwGA4Lm8zuE)
 ### 👋 Ask for help!
 - Check with your friend or neighbor. Helping others find errors is great practice.
 - Did you stump your neighbor? Ask Megan! 😊
