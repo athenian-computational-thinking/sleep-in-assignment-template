@@ -2,16 +2,16 @@ import pytest
 import src.my_code
 
 inp_1 = ["No", "No"]
-out_1 = "No"
+out_1 = "Sleep in? No!"
 
 inp_2 = ["No", "Yes"]
-out_2 = "Yes"
+out_2 = "Sleep in? Yes!"
 
 inp_3 = ["Yes", "Yes"]
-out_3 = "Yes"
+out_3 = "Sleep in? Yes!"
 
 inp_4 = ["Yes", "No"]
-out_4 = "Yes"
+out_4 = "Sleep in? Yes!"
 
 
 # run the test function for each input/output pair
